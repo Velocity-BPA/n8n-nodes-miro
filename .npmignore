@@ -1,0 +1,35 @@
+# Source files (we only publish compiled output)
+nodes/
+credentials/
+*.ts
+!*.d.ts
+
+# Config files
+.eslintrc.js
+.prettierrc
+tsconfig.json
+jest.config.js
+
+# Test files
+test/
+*.test.ts
+*.spec.ts
+coverage/
+
+# Development scripts
+scripts/
+
+# IDE files
+.idea/
+.vscode/
+
+# Build artifacts
+*.tsbuildinfo
+
+# Misc
+.DS_Store
+Thumbs.db
+*.log
+.env*
+.git/
+.github/
